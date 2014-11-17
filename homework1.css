@@ -1,0 +1,113 @@
+.navigation{
+	background-color:blanchedalmond;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	margin-left: 15px;
+	font-family:‘微软雅黑’，Arial;
+	font-size:18px;
+	height:22px;
+}
+
+.navigation  ul li{
+	display:inline;
+}
+.navigation  ul.nav-left{
+	float:left;
+	margin-left: -35px;
+	margin-top:0px;
+}
+.navigation  ul.nav-right{
+	float:right;
+	margin-top: 0px;
+}
+ul.product{
+	width:150px;
+	height:280px;
+	list-style-type:none;
+	margin-right:100px;
+	background-color:blanchedalmond;
+	padding:10px 30px 30px 6px;
+}
+
+ul.product li{
+	 margin-top:25px;
+	 font-size:22px;
+}
+
+ul.product li a{
+	text-decoration:none;
+}
+
+ul.product li a:hover{
+	color:red;
+}
+
+body header {
+	overflow: hidden;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+body header .header-left{
+	float:left;
+}
+
+body header .header-left img{
+	width:360px;
+}
+
+body header .header-right{
+	 float: left;
+	 margin-right:80px;
+	 margin-left: 180px;
+}
+
+body header .header-right h3{
+	text-align:right;
+}
+
+.disk{
+	overflow: hidden;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+.disk  h2{
+	margin-bottom:2px;
+}
+.disk ul{
+	list-style-type:none;
+	margin-left:-120px;
+}
+.disk ul li{
+	float:left;
+	margin-left:100px;
+}
+.disk  ul li img{
+	width:300px;
+	height:300px;
+}
+.disk ul li h3,p{ 
+	text-align:center;
+	font-family: ‘微软雅黑’，arial;
+}
+
+footer{
+	overflow: hidden;
+    margin-left: 15px;
+    margin-top: 50px;
+	padding-left: 70px;
+	background-color:blanchedalmond;
+	font-weight:bold;
+}
+footer .footer-left{
+	float:left;
+}
+footer .footer-right{
+	width:400px; 
+	float:left;
+	margin-left:120px;
+}
+footer .footer-right  img{
+	width:500px;
+}
