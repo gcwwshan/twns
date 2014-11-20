@@ -8,6 +8,7 @@
 body {
     background: white;
     color: black;
+    font-family:'微软雅黑', monospace, Arial;
 }
 
 .display-page {
