@@ -1,0 +1,123 @@
+
+body{
+font-family:'微软雅黑',Arial;
+}
+
+body header{
+background-color:blanchedalmond;
+margin-left:5%;
+width:90%;
+height:25px;
+}	
+header .nav-left{
+   float: left;	
+}
+header .nav-right{
+  float: right;	 
+}
+
+body .firstPart{
+	width:90%;
+	height:450px;
+	margin-left:5%;
+	margin-top:2%;
+}
+body .firstPart .Productlist{
+    background-color:blanchedalmond;
+    width:20%;
+    float:left;
+    height:400px;
+}
+body .firstPart .Productlist ul{
+    list-style-type: none;
+    width:80%;  
+    margin-top:25%;
+ }
+body .firstPart .Productlist ul li{
+     margin-top:25px;
+	 font-size:22px;	 
+}
+
+body .firstPart .Productlist ul  li a{
+	text-decoration:none;
+	color:black;	
+	font-size:x-large;
+}
+body .firstPart .Productlist ul li a:hover{
+	background-color:lightblue;
+}
+body .firstPart .picDisplay{
+	width:40%;
+	float:left;
+	margin-left:5%;
+}
+body .firstPart .picDisplay  img{
+    width: 400px;
+    height:400px;
+}
+body .firstPart .productDetails {
+	float:right;
+	width:20%;
+	margin-right:15%;
+	padding-top:3%;
+}
+body .firstPart .productDetails p{	
+	text-align: right;
+	font-size:large;
+	font-weight:bold;
+}
+
+.secondPart{
+    margin-left: 5%;
+    margin-top:25px;
+	width: 90%;
+}
+.secondPart  hr.line{
+  color:black;
+  size:2;
+  }
+.secondPart .disk{
+	overflow: hidden;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+.secondPart .disk  h2{
+	margin-bottom:2px;
+}
+.secondPart .disk ul{
+	list-style-type:none;	
+	padding-left:0;
+}
+.secondPart .disk ul li{
+	float:left;
+	margin-left:60px;
+}
+.secondPart .disk  ul li img{
+	width:300px;
+	height:300px;
+}
+.secondPart .disk ul li h3,p{ 
+	text-align:center;
+}
+
+footer{
+	overflow: hidden;
+	margin-top:5%;
+	margin-left:5%;
+    width:90%;
+	background-color:blanchedalmond;
+}
+footer .footer-left{  
+	float:left;
+	margin-left:5%;
+}
+footer .footer-right{
+	width:400px; 
+	float:left;
+	margin-left:120px;
+}
+footer .footer-right  img{
+	width:500px;
+}
+
+
