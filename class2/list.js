@@ -35,6 +35,11 @@ function diskDesc(desc) {
 }
 
 function diskDelete(title){
+  return $("<button>").html("删除").click(function(){$(this).parent().hide();});
+}
+
+/*
+function diskDelete(title){
   return $("<button>").html("删除").click(function(){deleteDiv(title);});
 }
 
@@ -43,7 +48,7 @@ function deleteDiv(title){
     return disk.name == title;
   });
   dataToView(disks);
-} 
+} */
 
 function add() {
   var newProduct = {
